@@ -1,4 +1,5 @@
 import { socialLinks } from "../constants";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -6,8 +7,7 @@ const Header = () => {
       <div className="absolute bottom-10 left-10">
 
         <div className="flex flex-col font-thin">
-          
-          <h1 className="text-4xl mb-3">Amko Salihovic</h1>
+          <Link to="/" className="text-4xl mb-3">Amko Salihovic</Link>
           <h4 className="text-lg">Developer / Consultant</h4>
         </div>
 
@@ -20,10 +20,6 @@ const Header = () => {
               </a>
             </li>
           ))}
-
-            {/* <li className="mr-2">linkedin</li>
-            <li className="mr-2">github</li>
-            <li className="mr-2">email</li> */}
           </ul>
         </div>
       </div>

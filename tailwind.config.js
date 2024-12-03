@@ -35,6 +35,7 @@ export default {
         },
         backgroundImage: {
           'hero': "url('assets/bg.jpg')",
+          'hero-blue':  "url('assets/bg-blue.jpg')",
         },
         screens: {
           "wide": "1440px"
