@@ -8,7 +8,7 @@ const Hero = () => {
     <Header />
     <div className="text-slate-100 font-semibold text-6xl">
       <div className="absolute right-10 top-10 flex flex-col justify-center h-screen">
-        <nav>
+        <nav className="">
           <ul className="text-right uppercase hover:cursor-pointer">
             {pageLinks.map((link) => (
               <li key={link.label} className="mb-10">
